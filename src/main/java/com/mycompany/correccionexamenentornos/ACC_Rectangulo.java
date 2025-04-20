@@ -10,4 +10,65 @@ package com.mycompany.correccionexamenentornos;
  */
 public class ACC_Rectangulo {
     
+    // Atributos
+    int id;
+    double ladoA;
+    double ladoB;
+    String color;
+
+    // Constructores
+    public ACC_Rectangulo() {
+    }
+
+    public ACC_Rectangulo(int id, double ladoA, double ladoB, String color) {
+        this.id = id;
+        this.ladoA = ladoA;
+        this.ladoB = ladoB;
+        this.color = color;
+    }
+
+    
+    
+    // Getters
+    public int getId() {
+        return id;
+    }
+
+    public double getLadoA() {
+        return ladoA;
+    }
+
+    public double getLadoB() {
+        return ladoB;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    // Setters
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setLadoA(double ladoA) {
+        this.ladoA = ladoA;
+    }
+
+    public void setLadoB(double ladoB) {
+        this.ladoB = ladoB;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    // To string
+    @Override
+    public String toString() {
+        return "ACC_Rectangulo{" + "id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + '}';
+    }
+    
+    
+    
 }
