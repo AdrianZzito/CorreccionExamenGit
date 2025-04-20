@@ -57,5 +57,11 @@ public class ACC_Circulo {
         return "ACC_Circulo{" + "id=" + id + ", radio=" + radio + ", color=" + color + '}';
     }
     
+    // Metodos
+    public double calculoAreaCirculo(ACC_Circulo circulo) {
+        double radio1 = circulo.getRadio();
+        double areaCirculo = radio1 * 3.14;
+        return areaCirculo;
+    }
     
 }

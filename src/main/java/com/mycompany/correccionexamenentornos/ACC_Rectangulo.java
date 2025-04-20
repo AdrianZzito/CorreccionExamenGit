@@ -69,6 +69,12 @@ public class ACC_Rectangulo {
         return "ACC_Rectangulo{" + "id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + '}';
     }
     
-    
+    // Metodos
+    public double calculoAreaRectangulo(ACC_Rectangulo rectangulo) {
+        double ladoA = rectangulo.getLadoA();
+        double ladoB = rectangulo.getLadoB();
+        double areaRectangulo = ladoA * ladoB;
+        return areaRectangulo;
+    }
     
 }
